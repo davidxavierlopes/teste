@@ -12,6 +12,6 @@ node {
                              azureCredentialsId: env.AZURE_CRED_ID, 
                              filePath: '**/*.json,**/*.jar,bin/*,HttpTrigger1/*', 
                              resourceGroup: env.RES_GROUP, 
-                             sourceDirectory: 'HttpTrigger1/'
+                             sourceDirectory: 'azure functions/HttpTrigger1'
      }
  }
